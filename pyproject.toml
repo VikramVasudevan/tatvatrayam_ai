@@ -1,0 +1,16 @@
+[project]
+name = "tatvatrayam-ai"
+version = "0.1.0"
+description = "Extracting text from Tatvatrayama scripture PDFs using OCR"
+readme = "GEMINI.md"
+requires-python = ">=3.10"
+dependencies = [
+    "pymupdf>=1.24.0",
+    "pytesseract>=0.3.10",
+    "pillow>=10.0.0",
+    "tqdm>=4.66.0",
+]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
